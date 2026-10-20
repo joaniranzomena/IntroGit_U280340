@@ -9,4 +9,6 @@ def greet(name):
 # not when it is imported as a module from another file.
 if __name__ == "__main__":
     print(greet("World")) # Call the greet function and print the result
-    
+def farewell(name):
+    """Return a goodbye message for the given name."""
+    return f"Goodbye, {name}! See you next commit."
