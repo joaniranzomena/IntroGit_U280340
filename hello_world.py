@@ -1,9 +1,9 @@
 # My first file tracked by Git
-# Author: Tu Nombre
+# Author: Joan
 
 def greet(name):
     """Return a welcome message for the given name."""
-    return f"Hello, {name}! Welcome to Git."
+    return f"Welcome, {name}! Glad to have you here."
 
 def farewell(name):
     """Return a goodbye message for the given name."""
@@ -18,4 +18,3 @@ if __name__ == "__main__":
     print(greet("World"))
     print(farewell("World"))
     show_footer()
-    
